@@ -44,7 +44,7 @@ public class ColoredFireworkStar extends CustomItemStack {
                 im.setLore(lines);
             }
 
-            im.addItemFlags(ItemFlag.HIDE_POTION_EFFECTS);
+            im.addItemFlags(ItemFlag.HIDE_ADDITIONAL_TOOLTIP);
         });
     }
 
