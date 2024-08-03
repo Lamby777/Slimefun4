@@ -49,6 +49,8 @@ public enum MinecraftVersion {
      */
     MINECRAFT_1_20(20, "1.20.x"),
 
+    MINECRAFT_1_21(21, "1.21.x"),
+
     /**
      * This constant represents an exceptional state in which we were unable
      * to identify the Minecraft Version we are using
