@@ -164,7 +164,7 @@ class TestClimbingPick implements SlimefunItemTest<ClimbingPick> {
 
     private ItemStack getPickWithEfficiency(@Nonnull ClimbingPick pick, int level) {
         ItemStack item = pick.getItem().clone();
-        item.addUnsafeEnchantment(Enchantment.DIG_SPEED, level);
+        item.addUnsafeEnchantment(Enchantment.EFFICIENCY, level);
         return item;
     }
 }
