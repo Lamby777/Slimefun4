@@ -377,7 +377,7 @@
         <dependency>
             <groupId>com.github.seeseemelk</groupId>
             <artifactId>MockBukkit-v1.20</artifactId>
-            <version>3.65.0</version>
+            <version>3.93.2</version>
             <scope>test</scope>
 
             <exclusions>
@@ -387,21 +387,21 @@
                     <groupId>org.jetbrains</groupId>
                     <artifactId>annotations</artifactId>
                 </exclusion>
-                <exclusion>
-                    <groupId>io.papermc.paper</groupId>
-                    <artifactId>paper-api</artifactId>
-                </exclusion>
+                <!-- <exclusion> -->
+                <!--     <groupId>io.papermc.paper</groupId> -->
+                <!--     <artifactId>paper-api</artifactId> -->
+                <!-- </exclusion> -->
             </exclusions>
         </dependency>
         <!-- Override MockBukkit's Paper to a pinned slightly older version -->
         <!-- This is because MockBukkit currently fails after this PR: -->
         <!-- https://github.com/PaperMC/Paper/pull/9629 -->
-        <dependency>
-            <groupId>io.papermc.paper</groupId>
-            <artifactId>paper-api</artifactId>
-            <version>1.20.4-R0.1-20240205.114523-90</version>
-            <scope>test</scope>
-        </dependency>
+        <!-- <dependency> -->
+        <!--     <groupId>io.papermc.paper</groupId> -->
+        <!--     <artifactId>paper-api</artifactId> -->
+        <!--     <version>1.20.4-R0.1-20240205.114523-90</version> -->
+        <!--     <scope>test</scope> -->
+        <!-- </dependency> -->
 
         <!-- Third party plugin integrations / soft dependencies -->
         <dependency>

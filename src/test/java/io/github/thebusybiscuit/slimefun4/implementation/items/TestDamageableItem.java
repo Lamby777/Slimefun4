@@ -82,8 +82,8 @@ class TestDamageableItem {
     @DisplayName("Test if DamageableItem cares about unbreaking levels")
     void testDamageableItemCaresUnbreaking() {
         MockDamageable noUnbreakingItem = getDummyItem("NU", true, null, null);
-        MockDamageable iiiUnbreakingItem = getDummyItem("IIIU", true, Enchantment.DURABILITY, 3);
-        MockDamageable xUnbreakingItem = getDummyItem("XU", true, Enchantment.DURABILITY, 10);
+        MockDamageable iiiUnbreakingItem = getDummyItem("IIIU", true, Enchantment.UNBREAKING, 3);
+        MockDamageable xUnbreakingItem = getDummyItem("XU", true, Enchantment.UNBREAKING, 10);
         ItemStack noUnbreakingItemIS = noUnbreakingItem.getItem().clone();
         ItemStack iiiUnbreakingItemIS = iiiUnbreakingItem.getItem().clone();
         ItemStack xUnbreakingItemIS = xUnbreakingItem.getItem().clone();
